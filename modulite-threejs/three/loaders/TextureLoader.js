@@ -1,5 +1,6 @@
 ml.module('three.loaders.TextureLoader')
-.requires('three.core.EventTarget',
+.requires('three.Three',
+          'three.core.EventTarget',
           'three.textures.Texture')
 .defines(function(){
 

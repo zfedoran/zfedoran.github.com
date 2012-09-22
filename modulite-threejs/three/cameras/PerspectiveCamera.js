@@ -1,5 +1,6 @@
 ml.module('three.cameras.PerspectiveCamera')
-.requires('three.cameras.Camera')
+.requires('three.Three',
+          'three.cameras.Camera')
 .defines(function(){
 
 /**

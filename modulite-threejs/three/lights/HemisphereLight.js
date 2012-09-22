@@ -1,5 +1,6 @@
 ml.module('three.lights.HemisphereLight')
-.requires('three.core.Color',
+.requires('three.Three',
+          'three.core.Color',
           'three.core.Vector3',
           'three.lights.Light')
 .defines(function(){

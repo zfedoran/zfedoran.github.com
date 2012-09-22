@@ -1,4 +1,5 @@
 ml.module('three.materials.ParticleDOMMaterial')
+.requires('three.Three')
 .defines(function(){
 
 /**

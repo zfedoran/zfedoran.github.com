@@ -1,5 +1,6 @@
 ml.module('three.extras.geometries.ShapeGeometry')
-.requires('three.core.Face3',
+.requires('three.Three',
+          'three.core.Face3',
           'three.core.Geometry',
           'three.core.Vector3',
           'three.extras.core.Shape',

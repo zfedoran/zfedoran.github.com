@@ -1,5 +1,6 @@
 ml.module('three.extras.cameras.CombinedCamera')
-.requires('three.cameras.Camera',
+.requires('three.Three',
+          'three.cameras.Camera',
           'three.cameras.OrthographicCamera',
           'three.cameras.PerspectiveCamera')
 .defines(function(){

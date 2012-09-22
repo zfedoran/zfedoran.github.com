@@ -1,4 +1,5 @@
 ml.module('three.core.Color')
+.requires('three.Three')
 .defines(function(){
 
 /**

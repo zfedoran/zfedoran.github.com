@@ -1,5 +1,6 @@
 ml.module('three.extras.SceneUtils')
-.requires('three.core.Matrix4',
+.requires('three.Three',
+          'three.core.Matrix4',
           'three.core.Object3D',
           'three.core.Vector3',
           'three.objects.LOD',

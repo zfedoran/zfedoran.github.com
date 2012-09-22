@@ -1,5 +1,6 @@
 ml.module('three.extras.core.Shape')
-.requires('three.extras.FontUtils',
+.requires('three.Three',
+          'three.extras.FontUtils',
           'three.extras.core.Path',
           'three.extras.geometries.ExtrudeGeometry',
           'three.extras.geometries.ShapeGeometry')

@@ -1,5 +1,6 @@
 ml.module('three.extras.geometries.TextGeometry')
-.requires('three.extras.FontUtils',
+.requires('three.Three',
+          'three.extras.FontUtils',
           'three.extras.geometries.ExtrudeGeometry')
 .defines(function(){
 

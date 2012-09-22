@@ -1,5 +1,6 @@
 ml.module('three.loaders.JSONLoader')
-.requires('three.core.Color',
+.requires('three.Three',
+          'three.core.Color',
           'three.core.Face3',
           'three.core.Face4',
           'three.core.Geometry',

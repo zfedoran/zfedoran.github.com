@@ -1,5 +1,6 @@
 ml.module('three.extras.ShaderUtils')
-.requires('three.core.Color',
+.requires('three.Three',
+          'three.core.Color',
           'three.core.Vector2',
           'three.core.Vector3',
           'three.renderers.WebGLRenderer',
