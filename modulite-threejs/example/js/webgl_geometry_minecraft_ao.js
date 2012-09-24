@@ -1,4 +1,3 @@
-ml.libraryPath('../');
 ml.module('webgl_geometry_minecraft_ao')
 .requires(
   'js.Detector',
@@ -61,9 +60,9 @@ ml.module('webgl_geometry_minecraft_ao')
       debug_corner_colors = false,
       strength = 2,
       textures = { 
-        side:   'textures/minecraft/grass_dirt.png',
-        top:    'textures/minecraft/grass.png',
-        bottom: 'textures/minecraft/dirt.png'
+        side:   'images/grass_dirt.png',
+        top:    'images/grass.png',
+        bottom: 'images/dirt.png'
       },
 
       m_aot = generateMegamaterialAO( textures, strength, debug_texture, debug_numbers, debug_corner_colors ),
